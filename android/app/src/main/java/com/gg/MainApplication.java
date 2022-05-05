@@ -10,7 +10,6 @@ import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
-import androidx.annotation.Nullable;
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -33,10 +32,6 @@ public class MainApplication extends Application implements ReactApplication {
         @Override
         protected String getJSMainModuleName() {
           return "index";
-        }
-        @Override
-        protected @Nullable String getBundleAssetName() {
-          return "app.bundle";
         }
       };
 
